@@ -617,8 +617,7 @@ int main() {
     // create_labirint_from_file(&labirint, "labirints\\porhibited_move_next.txt");
     // create_labirint_from_file(&labirint, "labirints\\maluk_labirint.txt");
     // create_labirint_from_file(&labirint, "labirints\\labirint_uslovie.txt");
-    // create_labirint_from_file(&labirint, "labirints\\dulug_labirint.txt");
-    create_labirint_from_file(&labirint, "labirints\\mazno.txt");
+    create_labirint_from_file(&labirint, "labirints\\dulug_labirint.txt");
     printf("Labirint created\n");
     
     labirint_visualisation(&labirint, HASHS);
